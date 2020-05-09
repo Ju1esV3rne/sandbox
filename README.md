@@ -38,8 +38,47 @@ cd python-programming
 
 to enter the `python-programming` directory.
 
-Make another directory called `exercises` using:
+Clone the `sandbox` and `exercises` repositories from Github using the following commands:
 
 ```bash
-mkdir exercises
+git clone https://github.com/den01-python-programming/sandbox/
+git clone https://github.com/den01-python-programming/exercises/
 ```
+
+Type `ls` at the command prompt. You should see the following output:
+
+```plaintext
+sandbox`    exercises
+```
+
+You can use the `sandbox` repo to try things out in Python throughout this course. Think of it as a directory for testing things.  
+
+## Downloading the exercises
+
+Enter the exercises directory using
+
+```bash
+cd exercises
+```
+
+Type `ls` at the command prompt. You should see the following output:
+
+```plaintext
+README.md   dl_exercises.sh     exercise-list.dat
+```
+
+The `dl_exercises.sh` file uses the `exercise-list.dat` file to download each part's exercises from the repos. We can *run* the `dl_exercises.sh` script as follows:
+
+```bash
+./dl_exercises.sh
+```
+
+You will be asked some questions as the script runs through depending on your scenario.
+
+If you would like to examine the inner workings of this script, you can check it out using:
+
+```bash
+cat dl_exercises.sh
+```
+
+Once the exercise files for each part are downloaded, you can use this directory as your main development environment.
