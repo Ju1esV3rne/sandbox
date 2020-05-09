@@ -75,10 +75,12 @@ The `dl_exercises.sh` file uses the `exercise-list.dat` file to download each pa
 
 You will be asked some questions as the script runs through depending on your scenario.
 
+Once the exercise files for each part are downloaded, you can use this directory as your main development environment.
+
 If you would like to examine the inner workings of this script, you can check it out using:
 
 ```bash
 cat dl_exercises.sh
 ```
 
-Once the exercise files for each part are downloaded, you can use this directory as your main development environment.
+Don't worry too much at the moment about how this works - it will probably become clearer as you go through the course!
