@@ -48,7 +48,7 @@ git clone https://github.com/den01-python-programming/exercises/
 Type `ls` at the command prompt. You should see the following output:
 
 ```plaintext
-sandbox`    exercises
+sandbox    exercises
 ```
 
 You can use the `sandbox` repo to try things out in Python throughout this course. Think of it as a directory for testing things.  
@@ -76,6 +76,10 @@ The `dl_exercises.sh` file uses the `exercise-list.dat` file to download each pa
 You will be asked some questions as the script runs through depending on your scenario.
 
 Once the exercise files for each part are downloaded, you can use this directory as your main development environment.
+
+If you type `ls` at the prompt, you should now see the exercises that were downloaded by the script.
+
+You can enter any of the directories using `cd`.
 
 If you would like to examine the inner workings of this script, you can check it out using:
 
