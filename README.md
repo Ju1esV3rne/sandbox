@@ -81,6 +81,8 @@ If you type `ls` at the prompt, you should now see the exercises that were downl
 
 You can enter any of the directories using `cd`.
 
+**NB:** This command will likely fail if you are working from your primary `C:\` drive and it is formatted as NTFS. This is due to `git clone` being unable to run `chmod` on Windows directories under NTFS format. This is unfortunate, and a work-around is in the TO-DOs.
+
 If you would like to examine the inner workings of this script, you can check it out using:
 
 ```bash
