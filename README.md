@@ -20,15 +20,13 @@ In this guide you will set up a folder called `python-programming` in `Documents
 
 Go into your file explorer, find the `Documents` directory and right-click to create a New Folder called `python-programming`. *Don't use spaces in the name of this directory.*
 
-Open up your WSL environment and enter the following commands at the prompt:
+Open up your WSL environment and enter the following command at the prompt:
 
 ```bash
-ln -s /mnt/c/Users/<your machine username>/Documents/python-programming python-programming
+mkdir python-programming
 ```
 
-remembering to replace <your machine usename> with your username.
-
-*Hint: If you press Tab after typing Users/ it will offer autocomplete suggestions.*
+to create a new directory called python-programming in your WSL root folder.
 
 Once this is done, type
 
@@ -37,6 +35,8 @@ cd python-programming
 ```
 
 to enter the `python-programming` directory.
+
+*Hint: If you press Tab after typing pyt it will offer autocomplete suggestions.*
 
 Clone the `sandbox` and `exercises` repositories from Github using the following commands:
 
